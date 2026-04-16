@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale Conosco</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://uniube.br/" target="_blank"><img src="imagens/logoUniube.png" alt="Logo" style="height:50px;"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="c.html">C/C++</a></li>
+        <li><a href="web.html">HTML & CSS</a></li>
+        <li><a href="uso.html">Onde São Usadas</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <div class="conteudo">
+      <h2>✉️ Fale Conosco</h2>
+      <p>Tem alguma dúvida, sugestão ou quer saber mais sobre linguagens de programação? Preencha o formulário abaixo e entraremos em contato!</p>
+ 
+      <form class="form-contato" action="#" method="post">
+ 
+        <div>
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+ 
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+ 
+        <div>
+          <label for="telefone">Telefone (opcional):</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+        </div>
+ 
+        <div>
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto">
+            <option value="">Selecione um assunto</option>
+            <option value="duvida">Dúvida sobre linguagens</option>
+            <option value="sugestao">Sugestão de conteúdo</option>
+            <option value="erro">Reportar um erro no site</option>
+            <option value="outro">Outro assunto</option>
+          </select>
+        </div>
+ 
+        <div>
+          <label for="linguagem">Linguagem favorita:</label>
+          <select id="linguagem" name="linguagem">
+            <option value="">Selecione uma linguagem</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="c">C / C++</option>
+            <option value="html">HTML / CSS</option>
+            <option value="outra">Outra</option>
+          </select>
+        </div>
+ 
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </div>
+ 
+        <div>
+          <label>
+            <input type="checkbox" name="aceito" required>
+            Aceito que meus dados sejam utilizados para responder minha mensagem.
+          </label>
+        </div>
+ 
+        <div>
+          <button type="submit">📨 Enviar Mensagem</button>
+        </div>
+ 
+      </form>
+ 
+      <h3>Outras formas de contato</h3>
+      <table>
+        <tr>
+          <th>Meio</th>
+          <th>Informação</th>
+        </tr>
+        <tr>
+          <td>📧 E-mail</td>
+          <td>seuemail@escola.edu.br</td>
+        </tr>
+        <tr>
+          <td>🏫 Instituição</td>
+          <td>Nome da sua escola/faculdade</td>
+        </tr>
+        <tr>
+          <td>📍 Localização</td>
+          <td>Sua cidade, Estado</td>
+        </tr>
+        <tr>
+          <td>👤 Responsável</td>
+          <td>Seu Nome — RA: 000000</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+ 
+  <footer>
+    <p>Trabalho sobre Linguagens de Programação &mdash; Aluno: <strong>João Victor Simão Soares</strong> | RA: <strong>5166828</strong></p>
+  </footer>
+</body>
+</html>
+ 

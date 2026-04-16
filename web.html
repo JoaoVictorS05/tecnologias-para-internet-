@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML e CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://uniube.br/" target="_blank"><img src="imagens/logoUniube.png" alt="Logo" style="height:50px;"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="python.html">Python</a></li>
+        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="c.html">C/C++</a></li>
+        <li><a href="web.html">HTML & CSS</a></li>
+        <li><a href="uso.html">Onde São Usadas</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <div class="conteudo">
+      <h2>🎨 HTML e CSS</h2>
+ 
+      <h3>O que é HTML?</h3>
+      <p>HTML significa <strong>HyperText Markup Language</strong> (Linguagem de Marcação de Hipertexto). Foi criado por <strong>Tim Berners-Lee</strong> em 1991, quando ele trabalhava no CERN (laboratório de física na Suíça). O HTML não é uma linguagem de programação — é uma linguagem de <em>marcação</em>, usada para estruturar o conteúdo das páginas web.</p>
+      <p>Hoje, o HTML é mantido pela <strong>W3C (World Wide Web Consortium)</strong> e pelo WHATWG. A versão atual é o <strong>HTML5</strong>, lançado em 2014, que trouxe suporte a vídeo, áudio, canvas e muito mais.</p>
+ 
+      <h3>O que é CSS?</h3>
+      <p>CSS significa <strong>Cascading Style Sheets</strong> (Folhas de Estilo em Cascata). Foi criado por <strong>Håkon Wium Lie</strong> em 1994 e se tornou recomendação do W3C em 1996. O CSS define como os elementos HTML devem ser exibidos visualmente: cores, fontes, tamanhos, posicionamento, etc.</p>
+      <p>A versão atual é o <strong>CSS3</strong>, que trouxe animações, gradientes, flexbox, grid e muito mais.</p>
+ 
+      <h3>A diferença entre HTML e CSS</h3>
+      <table>
+        <tr>
+          <th>Característica</th>
+          <th>HTML</th>
+          <th>CSS</th>
+        </tr>
+        <tr>
+          <td>O que faz?</td>
+          <td>Estrutura o conteúdo</td>
+          <td>Estiliza o conteúdo</td>
+        </tr>
+        <tr>
+          <td>Exemplo</td>
+          <td>Cria parágrafos, títulos, listas</td>
+          <td>Define cores, fontes, tamanhos</td>
+        </tr>
+        <tr>
+          <td>Extensão do arquivo</td>
+          <td>.html</td>
+          <td>.css</td>
+        </tr>
+        <tr>
+          <td>Analogia</td>
+          <td>O esqueleto de uma casa</td>
+          <td>A pintura e decoração da casa</td>
+        </tr>
+      </table>
+ 
+      <h3>Exemplo de HTML</h3>
+      <div class="codigo">
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html&gt;<br>
+        &lt;head&gt;<br>
+        &nbsp;&nbsp;&lt;title&gt;Minha Página&lt;/title&gt;<br>
+        &lt;/head&gt;<br>
+        &lt;body&gt;<br>
+        &nbsp;&nbsp;&lt;h1&gt;Olá, Mundo!&lt;/h1&gt;<br>
+        &nbsp;&nbsp;&lt;p&gt;Esta é a minha primeira página web.&lt;/p&gt;<br>
+        &nbsp;&nbsp;&lt;ul&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;/ul&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;
+      </div>
+ 
+      <h3>Exemplo de CSS</h3>
+      <div class="codigo">
+        /* Estilizando elementos */<br>
+        body {<br>
+        &nbsp;&nbsp;background-color: #f4f4f4;<br>
+        &nbsp;&nbsp;font-family: Arial, sans-serif;<br>
+        }<br><br>
+        h1 {<br>
+        &nbsp;&nbsp;color: #e94560;<br>
+        &nbsp;&nbsp;font-size: 32px;<br>
+        }<br><br>
+        p {<br>
+        &nbsp;&nbsp;line-height: 1.6;<br>
+        &nbsp;&nbsp;color: #333;<br>
+        }
+      </div>
+ 
+      <h3>Principais tags HTML</h3>
+      <ul>
+        <li><strong>&lt;h1&gt; a &lt;h6&gt;</strong> — Títulos e subtítulos</li>
+        <li><strong>&lt;p&gt;</strong> — Parágrafo de texto</li>
+        <li><strong>&lt;a&gt;</strong> — Link (âncora)</li>
+        <li><strong>&lt;img&gt;</strong> — Imagem</li>
+        <li><strong>&lt;ul&gt; / &lt;ol&gt; / &lt;li&gt;</strong> — Listas</li>
+        <li><strong>&lt;table&gt;</strong> — Tabela</li>
+        <li><strong>&lt;form&gt;</strong> — Formulário</li>
+        <li><strong>&lt;div&gt;</strong> — Divisão/container</li>
+        <li><strong>&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;</strong> — Estrutura semântica (HTML5)</li>
+      </ul>
+    </div>
+  </main>
+ 
+  <footer>
+    <p>Trabalho sobre Linguagens de Programação &mdash; Aluno: <strong>João Victor Simão Soares</strong> | RA: <strong>5166828</strong></p>
+  </footer>
+</body>
+</html>
+ 
